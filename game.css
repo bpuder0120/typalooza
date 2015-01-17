@@ -1,0 +1,67 @@
+.text {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#game-box {
+  width: 1000px;
+  height: 500px;
+  border-right: 3px solid red;
+  margin: 20px auto;
+  clear: both;
+}
+
+#numeric-score {
+  font-weight: 500;
+}
+
+#title {
+  text-align: left;
+}
+
+#message {
+  text-align: center;
+}
+
+#message h2, #score h2 {
+  font-size: 18px;
+  margin-top: 30px;
+  font-weight: 300;
+}
+
+.text-block {
+  width: 300px;
+  background-color: blue;
+  display: inline-block;
+}
+
+#text-line {
+  margin: 0 auto;
+}
+
+#score {
+  text-align: right;
+}
+
+.letter-tile {
+  display: inline-block;
+  text-align: center;
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  background-color:cornflowerblue;
+  border: 3px solid black;
+}
+
+.letter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px;
+  color: white;
+}
+
+.text {
+  width: 1000px;
+  margin: 0 auto;
+}
